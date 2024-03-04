@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>OptiCare - Accueil</title>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo"><img src="opticare2.png" alt="Opticare Logo"></a>
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+      <ul class="nav-links" id="nav-links">
+        <li class="dropdown">
+          <a href="#">Accueil</a>
+          <div class="dropdown-content">
+            <ul>
+              <li><a href="#histoire">Histoire de l'entreprise</a></li>
+              <li><a href="#Pourquoi">Lancement</a></li>
+              <li><a href="#Avantages">Description du projet</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="Propos.html">À Propos</a></li>
+        <li><a href="produits.html">Produits</a></li>
+        <li><a href="Contact.html">Nous Contacter</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="black-square">
+    <div class="bottom-text">
+        <p>Rejoignez-nous sur les réseaux !<br></p>
+        <div class="image-container2">
+            <a href="https://www.facebook.com/"><img src="facebook_logo_2.png"></a>
+            <a href="https://www.instagram.com/"><img src="Instagram_icon.png"></a>
+            <a href="https://www.linkedin.com/"><img src="linkedin.png"></a>
+        </div>
+        <p>OptiCare - Copyright © 2023-2024</p>
+    </div>
+</div>
+
+
+    <!-- Carrés -->
+    <div class="white-square"></div>
+    <div class="black-square"></div>
+    <div class="transparent-square">
+      <div class="Intro">
+        <h2>Bienvenue sur le site de OptiCare</h2>
+      </div>
+    </div>
+    <div class="grey-square1"></div>
+    <div class="grey-square2"></div>
+    <div class="grey-square3"></div>
+
+    <div class="image-container">
+      <img src="reflichis.jpg">
+    </div>
+    
+
+
+
+<!-- Contenu principal -->
+<div class="main-content">
+  <section id="histoire">
+      <h1>Qu'est-ce qu'OptiCare ?</h1>
+      <p><br>OptiCare est une entreprise novatrice sur le point de changer le monde de la médecine oculaire. Nous proposons <br>
+      deux produits : l'<strong>OptiCube</strong> et l'<strong>OptiBox</strong>. Grâce à nos produits, n'importe qui pourra faire une <br>
+      <strong>analyse</strong> poussée et surtout <strong>rapide</strong> de l'état de ses yeux et de sa vue. Nos deux produits <br>
+      pourront convenir aux besoins de chacuns et s'adapter aux différentes situations que nos clients pourront rencontrer.</p>
+  </section>
+</div>
+
+<!-- Texte 2 -->
+<div class="texte2">
+  <section id="Pourquoi">
+      <h2><strong>Pourquoi ne pas contacter un professionnel ?</strong></h2>
+      <p><br>OptiCare permet de palier a plusieurs problèmes sociétaux actuels. En effet, certaines personnes se trouvant dans des<br>
+      "deserts médicaux" pourront alors tout de même avoir des réponses à leurs éventuelles questions sur leur santé.<br>
+      De plus, le nombre de médecins décroit de nos jours. Ce genre de dispositif peut alors rassurer les foules et <br>
+      d'ouvrir de nouveaux horizons vers une médecine plus moderne</p>
+  </section>
+</div>
+
+<!-- Texte 3 -->
+<div class="texte3">
+  <section id="Avantages">
+      <h2><strong>Au plus proche de l'environnement</strong></h2>
+      <p><br>Notre équipe met un poing d'honneur à respecter la nature. C'est pourquoi nous sommes en partenariat avec des entreprises<br>
+      pour réutiliser le plastiques jeté dans les océans afin de fabriquer nos produits.</p>
+  </section>
+</div>
+<!-- Text intro-->
+
+
+
+  <!-- JavaScript pour le menu burger -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var menuToggle = document.getElementById('menu-toggle');
+      var navLinks = document.getElementById('nav-links');
+
+      menuToggle.addEventListener('click', function () {
+        navLinks.classList.toggle('active');
+      });
+    });
+    </script>
+
+</body>
+</html>

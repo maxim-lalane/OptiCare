@@ -1,0 +1,282 @@
+/* Réinitialisation des marges et des paddings par défaut */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles de base */
+  body {
+
+        background-image: url('nature3.jpg'); /* Chemin de l'image de fond */
+        background-size: cover; /* Assure que l'image de fond couvre toute la surface du corps */
+        background-position: center; /* Centre l'image de fond */
+        background-repeat: no-repeat; /* Évite la répétition de l'image de fond */
+      
+  }
+  /* ... (autres styles CSS) ... */
+
+/* Styles pour le menu déroulant */
+.dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s; /* Ajout de transition pour une animation fluide */
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #87CEEB; /* Bleu clair au survol */
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between; /* Ajout : Espacement équitable entre les enfants */
+    align-items: center; /* Ajout : Centrage vertical des enfants */
+}
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: rgba(150, 150, 150, 0.6);
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center; /* Centrer verticalement les éléments */
+    position:fixed;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 1.0em;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: auto;;
+  }
+
+  .logo img {
+    width: 15%; /* Réduit la largeur de l'image à 40% */
+    margin-right: auto; /* Déplacer le logo à l'extrême gauche */
+    height: auto; /* Garantit que la hauteur s'ajuste automatiquement en fonction de la largeur */
+}
+  
+  .menu-toggle {
+    font-size: 1.5em;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  /* Contenu principal styles */
+.main-content {
+  z-index: 4;
+  position:absolute; 
+  padding: 50px 0;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: -1420px;
+  font-size: 1.5em;
+}
+
+.texte2 {
+  z-index: 4;
+  position:absolute; 
+  padding: 50px 0;
+  text-align: left;
+  margin-left: 300px;
+  margin-top: -1190px;
+  font-size: 1.5em;
+}
+
+.texte3 {
+  padding: 50px 0;
+  z-index: 4;
+  position:absolute; 
+  text-align: left;
+  margin-left: 50px;
+  margin-top: -970px;
+  font-size: 1.5em;
+}
+
+.Intro{
+  padding: 50px 0;
+  z-index: 4;
+  position:absolute; 
+  text-align: left;
+  font-size: 1.5em;
+  color:#fff;
+}
+  
+/*carre*/
+
+.transparent-square {
+  width: 600px;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.5); /* Rouge avec une opacité de 0.5 */
+  top: 300px; /* Distance depuis le bord supérieur */
+  left: 50px; /* Distance depuis le bord gauche */
+  z-index: 1;
+  position:absolute;
+}
+
+.black-square{
+  width: 100%; /* Largeur en fonction de la largeur de l'écran avec une marge de 10px de chaque côté */
+  height: 1050px; /* Spécifiez la hauteur du carré */
+  background-color: #000; /* Couleur de fond blanche */
+  position:relative; /* Position absolue pour placer le carré où vous le souhaitez */
+  top: 700px; /* Distance depuis le bord supérieur */
+  left: 0px; /* Distance depuis le bord gauche */
+  z-index: 2;
+
+}
+.white-square {
+  width: calc(100vw - 40px); /* Largeur en fonction de la largeur de l'écran avec une marge de 10px de chaque côté */
+  height: 850px; /* Spécifiez la hauteur du carré */
+  background-color: #fff; /* Couleur de fond blanche */
+  position: absolute; /* Position absolue pour placer le carré où vous le souhaitez */
+  top: 680px; /* Distance depuis le bord supérieur */
+  left: 10px; /* Distance depuis le bord gauche */
+  z-index: 3;
+}
+.grey-square1 {
+  width: 1200px; /* Largeur en fonction de la largeur de l'écran avec une marge de 10px de chaque côté */
+  height: 200px; /* Spécifiez la hauteur du carré */
+  background-color: #ddd; /* Couleur de fond blanche */
+  position: absolute; /* Position absolue pour placer le carré où vous le souhaitez */
+  top: 720px; /* Distance depuis le bord supérieur */
+  left: 40px; /* Distance depuis le bord gauche */
+  z-index: 3;
+}
+
+.grey-square2 {
+  width: 1200px; /* Largeur en fonction de la largeur de l'écran avec une marge de 10px de chaque côté */
+  height: 200px; /* Spécifiez la hauteur du carré */
+  background-color: #ddd; /* Couleur de fond blanche */
+  position: absolute; /* Position absolue pour placer le carré où vous le souhaitez */
+  top: 950px; /* Distance depuis le bord supérieur */
+  left: 280px; /* Distance depuis le bord gauche */
+  z-index: 3;
+}
+
+.grey-square3 {
+  width: 1200px; /* Largeur en fonction de la largeur de l'écran avec une marge de 10px de chaque côté */
+  height: 170px; /* Spécifiez la hauteur du carré */
+  background-color: #ddd; /* Couleur de fond blanche */
+  position: absolute; /* Position absolue pour placer le carré où vous le souhaitez */
+  top: 1180px; /* Distance depuis le bord supérieur */
+  left: 40px; /* Distance depuis le bord gauche */
+  z-index: 3;
+}
+
+.image-container {
+  position: absolute;
+  top: 950px; /* Ajustez la distance depuis le bord supérieur selon vos besoins */
+  left: 20px; /* Ajustez la distance depuis le bord gauche selon vos besoins */
+  z-index: 5;
+}
+
+.image-container img {
+  width: 250px; /* Ajustez la largeur de l'image selon vos besoins */
+  height: auto; /* Ajustez la hauteur automatiquement en fonction de la largeur */
+}
+
+.image-container2 {
+  position: absolute; /* Changez la position à absolute */
+  bottom: 50px; /* Ajustez la distance depuis le bas selon vos besoins */
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 3; /* Augmentez le z-index pour être au-dessus de .bottom-text */
+}
+
+.image-container2 img {
+  width: 40px;
+  height: auto;
+}
+
+.bottom-text {
+  position: absolute;
+  color: #fff;
+  bottom: 20px; /* Ajustez la distance depuis le bas selon vos besoins */
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    /* ... (autres styles CSS pour la version mobile) ... */
+    .menu-toggle {
+      display: block;
+    }
+  
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      text-align: left; /* Alignement à gauche */
+      position: absolute;
+      top: 60px; /* Hauteur de la barre de navigation */
+      left: 0; /* Bord gauche de l'écran */
+      width: calc(50% - 50px); /* 1/2 de la largeur de l'écran moins l'éloignement des éléments */
+      max-width: 300px; /* Largeur maximale du menu */
+      height: calc(100vh - 60px); /* Hauteur égale à 100% de la hauteur de la vue - hauteur de la barre de navigation */
+      background-color: #333;
+      padding-left: 50px; /* Éloignement des éléments du bord gauche */
+      margin: 0; /* Ajout : Supprime la marge par défaut du conteneur */
+      padding: 0;
+  
+    }
+  
+    .nav-links.active {
+      display: flex;
+      justify-content: space-around; /* Répartition équitable des éléments */
+      align-items: stretch; /* Les éléments s'étendent pour occuper toute la hauteur */
+    }
+  
+    .nav-links li {
+      margin-right: 0;
+      margin-bottom: 10px;
+        margin-left: 20px; /* Garde une marge à gauche pour tous les éléments sauf le premier */
+    }
+} 

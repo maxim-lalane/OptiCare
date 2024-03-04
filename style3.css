@@ -1,0 +1,213 @@
+/* Réinitialisation des marges et des paddings par défaut */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles de base */
+body {
+    background-image: url('nature3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Styles pour le menu déroulant */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-content a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.dropdown-content a:hover {
+    background-color: #87CEEB;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: rgba(150, 150, 150, 0.6);
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 1.0em;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.logo img {
+    width: 15%;
+    margin-right: auto;
+    height: auto;
+}
+
+.menu-toggle {
+    font-size: 1.5em;
+    cursor: pointer;
+    display: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+/* Contenu principal styles */
+.main-content,
+.texte2,
+.texte3 {
+    z-index: 4;
+    position: relative;
+    padding: 50px 0;
+    text-align: left;
+    font-size: 1.5em;
+    margin-top: 20px; /* Ajoutez un espace entre les sections */
+}
+
+/* Formulaire de contact styles */
+.contact-form {
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 3;
+    margin-top: 20px; /* Ajustez la marge pour l'espace souhaité */
+    margin-bottom: 50px; /* Ajustez la marge en bas pour éviter le chevauchement avec le contenu suivant */
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Questions fréquemment posées styles */
+.faq-section {
+    position: relative;
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 3;
+    margin-top: 50px; /* Ajustez la marge pour l'espace souhaité */
+    margin-bottom: 50px; /* Ajustez la marge en bas pour éviter le chevauchement avec le formulaire */
+}
+
+.faq-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq-question {
+    margin-bottom: 20px;
+}
+
+.faq-question h3 {
+    font-size: 1.2em;
+}
+
+/* Copyright et icônes de réseaux sociaux styles */
+.bottom-content {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    z-index: 3;
+}
+
+/* JavaScript pour le menu burger */
+#menu-toggle {
+    font-size: 1.5em;
+    cursor: pointer;
+    display: none;
+}
+
+#nav-links {
+    list-style: none;
+    display: flex;
+}
+
+#nav-links li {
+    margin-left: 20px;
+}

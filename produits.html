@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles_produits.css">
+    <title>OptiCare - Produits</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo"><img src="opticare2.png" alt="Opticare Logo"></a>
+            <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+            <ul class="nav-links" id="nav-links">
+                <li class="dropdown">
+                    <a href="Acceuil.html">Accueil</a>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="Acceuil.html#histoire">Histoire de l'entreprise</a></li>
+                            <li><a href="Acceuil.html#Pourquoi">Lancement</a></li>
+                            <li><a href="Acceuil.html#Avantages">Description du projet</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="Propos.html">À Propos</a></li>
+                <li><a href="produits.html">Produits</a></li>
+                <li><a href="Contact.html">Nous Contacter</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Carrés -->
+    <div class="white-square"></div>
+    <div class="black-square"></div>
+    <div class="transparent-square"></div>
+    <div class="grey-square1"></div>
+    <div class="grey-square2"></div>
+    <div class="grey-square3"></div>
+
+    <div class="image-container">
+        <img src="opticube.png">
+    </div>
+    <div class="image-container2">
+        <img src="optibox.jpeg">
+    </div>
+
+
+
+
+    <!-- Contenu principal -->
+    <div class="main-content">
+        <section id="produits">
+            <h1>Quels sont nos produits ?</h1>
+            <p>
+                <br>Nous proposons deux produits différents à la vente, en fonction de vos besoins : l'OptiCube et l'OptiBox.
+                <br>Voici leur description :
+            </p>
+        </section>
+    </div>
+
+    <!-- Texte 2 -->
+    <div class="texte2">
+        <section id="opticube">
+            <h2><strong>L'OptiCube</strong></h2>
+            <p>
+                <br>L'OptiCube est la version de notre produit destinée aux professionnels de la santé, tels que les hôpitaux, cabinets d'ophtalmologie ou simplement les médecins généralistes.
+                En effet, notre préoccupation avec cette version était d'éviter à tout prix les dépenses inutiles pour permettre une distribution de masse à des prix plus avantageux.
+                En partant de la supposition qu'un cabinet de médecine utilisera et stockera notre produit dans des conditions plus optimales qu'un citoyen lambda, nous avons donc décidé de
+                faire sans une solidité et une résistance optimisées, en nous contentant du strict minimum pour avoir un produit fiable sans en faire trop. <br>
+            </p>
+            <h3><i>14,99€</i></h3>
+        </section>
+    </div>
+
+    <!-- Texte 3 -->
+    <div class="texte3">
+        <section id="optibox">
+            <h2><strong>L'OptiBox</strong></h2>
+            <p>
+                <br>L'OptiBox, elle, est la version passe-partout de notre produit, destinée avant tout aux particuliers souhaitant utiliser notre technologie à leur guise. En effet, construite avec des matériaux
+                plus solides, cette version est prête à affronter même les conditions les plus éprouvantes auxquelles elle pourra être confrontée dans la vie de tous les jours. Avec son format de poche, l'OptiBox
+                est transportable partout, et ne prend pas trop de place chez vous. Vous pourrez alors grâce à ce boîter effectuer vos prochains tests oculaires à partir de n'importe où, sans avoir à vous déplacer
+                chez le médecin. Cela permet de faciliter l'accès aux soins à toute la population, même dans les coins les plus reculés de la planète, et cela tout en appliquant une démarche proactive par rapport
+                aux maladies oculaires.
+            </p>
+            <h3><i>19,99€</i></h3>
+        </section>
+    </div>
+    <!-- Text intro-->
+    <div class="Intro">
+        <h2>Produits OptiCare</h2>
+    </div>
+
+    <div class="black-square">
+        <div class="bottom-text">
+            <p>Rejoignez-nous sur les réseaux !<br></p>
+            <div class="image-container3">
+                <a href="https://www.facebook.com/"><img src="facebook_logo_2.png"></a>
+                <a href="https://www.instagram.com/"><img src="Instagram_icon.png"></a>
+                <a href="https://www.linkedin.com/"><img src="linkedin.png"></a>
+            </div>
+            <p>OptiCare - Copyright © 2023-2024</p>
+        </div>
+    </div>
+
+    <!-- JavaScript pour le menu burger -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var menuToggle = document.getElementById('menu-toggle');
+            var navLinks = document.getElementById('nav-links');
+
+            menuToggle.addEventListener('click', function () {
+                navLinks.classList.toggle('active');
+            });
+        });
+    </script>
+
+</body>
+</html>

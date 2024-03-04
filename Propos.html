@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <title>OptiCare - À propos</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo"><img src="opticare2.png" alt="Opticare Logo"></a>
+            <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+            <ul class="nav-links" id="nav-links">
+                <li class="dropdown">
+                    <a href="Acceuil.html">Accueil</a>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="#histoire">Histoire de l'entreprise</a></li>
+                            <li><a href="#Pourquoi">Lancement</a></li>
+                            <li><a href="#Avantages">Description du projet</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="Propos.html">À Propos</a></li>
+                <li><a href="produits.html">Produits</a></li>
+                <li><a href="Contact.html">Nous Contacter</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Carrés -->
+
+    <div class="transparent-square">
+        <div class="Intro">
+            <h2>A propos de l'équipe OptiCare</h2>
+        </div>
+    </div>
+
+    <div class="black-square">
+        <div class="bottom-text">
+            <p>Rejoignez-nous sur les réseaux !<br></p>
+            <div class="image-container">
+                <a href="https://www.facebook.com/"><img src="facebook_logo_2.png"></a>
+                <a href="https://www.instagram.com/"><img src="Instagram_icon.png"></a>
+                <a href="https://www.linkedin.com/"><img src="linkedin.png"></a>
+              </div>
+            <p>OptiCare - Copyright © 2023-2024</p>
+        </div>
+    </div>
+
+
+    <div class="white-square">
+        <div class="middle-element">
+            <p><br></p>
+            <h1>La team OptiCare</h1>
+            <p><br><br></p>
+            <div class="grey-square1">
+                <div class="main-content">
+                    <h1>Comment a été créé OptiCare ?</h1>
+                    <p><br>UpKit a été créé à la fin de l'année 2023 par Raphaël BEAU, Maxim LALANE et Yanis LOZE. Nous sommes des étudiants en 1ère année en BUT Informatique.<br><br></p>
+                    <h2>Comment est venue l'idée pour OptiCare ?</h2>
+                    <p>Nous connaissons tous au moins une personne qui a un ou des problèmes de vue(s). De nos jours, environ 30% de la population mondiale est myope.
+                        D'après <a href="https://sante.lefigaro.fr/article/plus-de-2-2-milliards-de-personnes-souffrent-de-troubles-de-la-vision-dans-le-monde">cet article</a> du Figaro Santé,
+                        65 millions de personnes auraient pu voir leur vue totalement soignée si elles avaient eu accès aux soins appropriés. Chez OptiCare, cette nouvelle nous a révoltés.
+                    </p>
+                </div>
+            </div>
+        
+                <div class="grey-square2">
+                    <div class=""texte2">
+                        <h3>Raphael BEAU</h3>
+                        <p>Je suis un étudiant à l'IUT de Fontainebleau en Informatique et co-fondateur d'OptiCare.
+                            Je suis un fan de programmation et de hardware.
+                            Je souhaiterai partager mes connaissances en hardware afin que ça profite au plus de monde possible.<br><br><br></p>
+                        <a href="CV_BEAU_ALT.pdf" download="CV_BEAU_ALT.pdf">CV</a>
+                    </div>
+                </div>
+                <div class="grey-square3">
+                    <div class=""texte3">
+                        <h3>Yanis LOZE</h3>
+                        <p>Etudiant en Informatique à l'IUT de Fontainebleau et co-fondateur d'OptiCare.
+                            Je suis fasciné par l'informatique et plus précisement par la programmation.
+                            J'aimerai pouvoir continuer de partager et de peaufiner mes connaissance dans le développement d'application et de site internet.<br><br><br></p>
+                            <a href="CV_Yanis.pdf" download="CV_Yanis.pdf">CV</a>
+                    </div>
+                <div>
+                <div class="grey-square4">
+                    <div class=""texte4">
+                        <h3>Maxim LALANE</h3>
+                        <p>Etudiant en Informatique à l'IUT de Fontainebleau et co-fondateur d'OptiCare.
+                            Passionné d'informatique depuis ma plus tendre enfance. Les cours que je suis me conforte totalement dans ma perspective d'avenir.
+                            J'aime également énormément aller au contact de nos client et de les dépanner.<br><br><br></p>
+                            <a href="CV_Maxim.png" download="CV_Maxim.png">CV</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+
+
+    
+
+    <!-- Text intro-->
+
+
+
+
+    <!-- JavaScript pour le menu burger -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var menuToggle = document.getElementById('menu-toggle');
+            var navLinks = document.getElementById('nav-links');
+
+            menuToggle.addEventListener('click', function () {
+                document.body.classList.toggle('nav-active'); // Ajoute ou supprime la classe sur le corps au lieu de nav-links
+            });
+        });
+    </script>
+
+</body>
+
+</html>
